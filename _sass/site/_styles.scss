@@ -1,0 +1,55 @@
+#about-page{
+  .intro{
+    display: flex;
+    flex-wrap: wrap;
+    .profile-pic{
+      width: 200px;
+      height: 200px;
+      margin: 10px;
+      border: 1px solid black;
+      @media (max-width: 768px) {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    .body-txt{
+      margin: 10px;
+      font-size: 16px;
+      font-weight: 200;
+    }
+  }
+
+  .like_panel{
+    margin: 10px;
+    width: auto;
+    height: 750px;
+    #food{
+      height: 290px;
+      margin: 10px;
+      color: black;
+      font-size: 50px;
+      border: 1px solid black;
+      background-size: cover;
+      background-image: url("assets/site/images/img4.png");
+    }
+    #travel{
+      height: 240px;
+      margin: 10px;
+      color: black;
+      font-size: 50px;
+      border: 1px solid black;
+      background-size: cover;
+      background-image: url("assets/site/images/img4.png");
+    }
+    #projects{
+      height: 240px;
+      margin: 10px;
+      color: black;
+      font-size: 50px;
+      border: 1px solid black;
+      background-size: cover;
+      background-image: url("assets/site/images/img4.png");
+    }
+  }
+}
